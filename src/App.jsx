@@ -1,10 +1,14 @@
+import AddTodo from "./components/AddTodo"
+import Todos from "./components/Todos"
 
 function App() {
 
   return (
-    <div className = 'bg-gray-500'>
-      hellooo
-    </div>
+    <>
+      <div> To-do Application</div>
+      <AddTodo/>
+      <Todos/>
+    </>
   )
 }
 
