@@ -4,11 +4,10 @@ import Todos from "./components/Todos"
 function App() {
 
   return (
-    <>
-      <div> To-do Application</div>
+    <div className="bg-gray-600 min-h-screen">
       <AddTodo/>
       <Todos/>
-    </>
+    </div>
   )
 }
 
