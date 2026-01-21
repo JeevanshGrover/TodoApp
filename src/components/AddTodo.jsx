@@ -12,8 +12,8 @@ function AddTodo() {
     }
 
     return (
-        <div className='flex flex-col items-center w-full'>
-            <div className='text-3xl text-amber-200 font-bold'>Todo Application</div>
+        <div className='flex flex-col items-center w-ful'>
+            <div className='text-3xl text-amber-200 font-bold mt-10'>Todo Application</div>
             <form className = 'm-4 p-2' onSubmit={addTodoHandler}>
                 <input
                     type='text'
