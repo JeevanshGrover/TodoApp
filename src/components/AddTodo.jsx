@@ -25,6 +25,7 @@ function AddTodo() {
 
                 <button
                     type='submit'
+                    disabled = {input.trim() === ''}
                     className='mx-2 border-2 p-1 rounded-xl bg-blue-400 hover:cursor-pointer hover:bg-blue-600'
                 >
                     Add todo
